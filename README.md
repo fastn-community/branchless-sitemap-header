@@ -13,7 +13,10 @@ Here's an example of how the Header Component might look when rendered:
 
 ### Header
 
+Sample 1:
 ![header-1.png](.github/assets/header-1.png)
+
+Sample 2:
 ![header-2.png](.github/assets/header-2.png)
 
 
