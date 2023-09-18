@@ -1,14 +1,24 @@
 -- import: fastn
 
--- fastn.package: __user_name__.github.io/__repo_name__
-favicon: /-/__user_name__.github.io/__repo_name__/favicon.ico
+-- fastn.package: fastn-community.github.io/branchless-sitemap-header
+favicon: /-/fastn-community.github.io/branchless-sitemap-header/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/sitemap-header-doc
+-- fastn.dependency: fifthtry.github.io/fastn-io-typography
 
--- fastn.auto-import: __user_name__.github.io/__repo_name__/assets
+-- fastn.auto-import: fastn-community.github.io/branchless-sitemap-header/assets
 
 
 -- fastn.sitemap:
 
 # Home: index.html
 
+## Intro: index.html
+
+- Sitemap Header: index.html
+
+## Overview: /-/overview/
+
+- Overview: /-/overview/
+
+# Docs: /-/docs/
