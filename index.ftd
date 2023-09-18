@@ -25,7 +25,7 @@ license-url: https://github.com/fastn-community/branchless-sitemap-header/blob/m
 -- component header:
 optional caption site-name:
 optional ftd.image-src site-logo:
-string site-url:
+optional string site-url:
 
 -- components.header:
 site-name: $header.site-name
