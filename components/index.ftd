@@ -5,7 +5,7 @@
 -- component header:
 optional ftd.image-src site-logo:
 optional ftd.image-src brand-site-logo:
-string site-url: /
+string site-url: index.html
 optional string site-name:
 optional string brand-site-url:
 optional string brand-site-name:
@@ -54,7 +54,7 @@ parent-brand: $header.parent-brand
 site-logo: $header.site-logo
 menu-icon: $header.menu-icon
 brand-caption: $header.brand-caption
-site-url: $header.site-url 
+site-url: $header.site-url
 site-name: $header.site-name
 sections: $header.sections
 sub-sections: $header.sub-sections 
@@ -170,7 +170,7 @@ top.px: 20
 -- component menu-mobile:
 optional ftd.image-src site-logo:
 ftd.image-src menu-icon:
-string site-url: 
+string site-url:
 optional string brand-caption:
 optional string site-name:
 boolean parent-brand: 
@@ -272,7 +272,7 @@ github-url: $menu-mobile.github-url
 
 -- component header-desktop:
 optional ftd.image-src site-logo:
-string site-url: 
+string site-url:
 string current-url:
 optional string site-name:
 optional string brand-caption:
