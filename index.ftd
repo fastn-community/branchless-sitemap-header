@@ -1,6 +1,7 @@
 -- import: fastn-community.github.io/sitemap-header-doc/docs
+-- import: fastn-community.github.io/branchless-sitemap-header/components
 -- import:  fastn-community.github.io/branchless-sitemap-header
-
+-- import: fifthtry.github.io/fastn-io-typography as typo
 
 
 
@@ -12,8 +13,8 @@ package-name: branchless-sitemap-header
 package-full-name: fastn-community.github.io/branchless-sitemap-header
 github: https://github.com/fastn-community/branchless-sitemap-header
 category: fastn-community.github.io/branchless-sitemap-header
-license-url: NULL
-;; license-url: https://github.com/fastn-community/branchless-sitemap-header/blob/main/LICENSE
+types: $typo.types
+license-url: https://github.com/fastn-community/branchless-sitemap-header/blob/main/LICENSE
 
 
 
@@ -26,21 +27,9 @@ optional caption site-name:
 optional ftd.image-src site-logo:
 string site-url:
 
-;; =============================================================================
-;; =======================<IMPLEMENT THE HEADER HERE>===========================
-;; =============================================================================
-
--- ftd.text: Implement the **header** component here
-color: $inherited.colors.text
-background.solid: $inherited.colors.background.base
-width: fill-container
-height: fill-container
-text-align: center
-role: $inherited.types.copy-regular
-padding-vertical.px: 32
-
-;; =============================================================================
-;; ================================== END ======================================
-;; =============================================================================
+-- components.header:
+site-name: $header.site-name
+site-logo: $header.site-logo
+site-url: $header.site-url
 
 -- end: header

@@ -4,6 +4,7 @@
 favicon: /-/fastn-community.github.io/branchless-sitemap-header/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/sitemap-header-doc
+-- fastn.dependency: fifthtry.github.io/fastn-io-typography
 
 -- fastn.auto-import: fastn-community.github.io/branchless-sitemap-header/assets
 
@@ -12,3 +13,12 @@ favicon: /-/fastn-community.github.io/branchless-sitemap-header/favicon.ico
 
 # Home: index.html
 
+## Intro: index.html
+
+- Sitemap Header: index.html
+
+## Overview: /-/overview/
+
+- Overview: /-/overview/
+
+# Docs: /-/docs/
